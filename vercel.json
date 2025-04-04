@@ -1,5 +1,11 @@
 {
     "github": {
         "silent": true
-    }
+    },
+    "rewrites": [
+        {
+          "source": "nextchat/(.*)",
+          "destination": "https://tokichat.com/$1"
+        }
+    ]
 }
