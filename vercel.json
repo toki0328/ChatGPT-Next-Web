@@ -5,11 +5,11 @@
     "rewrites": [
         {
           "source": "pdocs/(.*)",
-          "destination": "https://p-docs-xi.vercel.app/&1"
+          "destination": "https://p-docs-hzky.vercel.app/&1"
         },
         {
           "source": "pdocs",
-          "destination": "https://p-docs-xi.vercel.app"
+          "destination": "https:/p-docs-hzky.vercel.app"
         }
     ]
 }
