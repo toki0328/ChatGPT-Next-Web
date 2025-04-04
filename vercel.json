@@ -5,11 +5,11 @@
     "rewrites": [
         {
           "source": "pdocs/(.*)",
-          "destination": "https://www.tokichat.com/&1"
+          "destination": "https://p-docs-xi.vercel.app/&1"
         },
         {
           "source": "pdocs",
-          "destination": "https://www.tokichat.com/"
+          "destination": "https://p-docs-xi.vercel.app"
         }
     ]
 }
