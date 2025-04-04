@@ -5,7 +5,7 @@
     "rewrites": [
         {
           "source": "nextchat/(.*)",
-          "destination": "https://tokichat.com/$1"
+          "destination": "/"
         }
     ]
 }
