@@ -4,8 +4,12 @@
     },
     "rewrites": [
         {
-          "source": "nextchat/(.*)",
-          "destination": "/"
+          "source": "pdocs/(.*)",
+          "destination": "https://www.tokichat.com/&1"
+        },
+        {
+          "source": "pdocs",
+          "destination": "https://www.tokichat.com/"
         }
     ]
 }
